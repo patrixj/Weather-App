@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Arial", serif;
+}
+
+input {
+  width: 300px;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    rgba(161, 190, 214, 0.633) 0%,
+    rgba(47, 122, 141, 0.841) 35%,
+    rgb(63, 80, 129) 100%
+  );
+}
+
+#loc {
+  font-size: 4rem;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.container2 {
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.celsia {
+  display: flex;
+  /* align-items: center; */
+  margin: 15px 0;
+  font-size: 2rem;
+}
+
+.celsia2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 5;
+  font-size: 1rem;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.whisperer {
+  height: 200px;
+  overflow: auto;
+}
+
+.whisperer .selected {
+  font-weight: bold;
+  background-color: chartreuse;
+}

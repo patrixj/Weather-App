@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+
+    <title>Weather App</title>
+  </head>
+
+  <body>
+   
+    <div class="container">
+      <h1>Weather App</h1>
+
+      <h3>search</h3>
+      <div id="searchbar">
+      </div>
+
+
+      <div id="loc">LOADING</div>
+      <!-- DNES -->
+      <h2>Today</h2>
+      <div>
+        <div class="nowTime"></div>
+        <div class="celsia">...</div>
+      </div>
+
+
+      <!-- DALŠÍ DNY -->
+      <h2>Next 5 days</h2>
+      <div class="container2">
+      </div>
+
+      
+    </div>
+    </div>
+
+    <!--script type module is not working on local file system due to CORS so no import/export-->
+    <script type="module" src="src/js/index.js"></script>
+  </body>
+</html>
