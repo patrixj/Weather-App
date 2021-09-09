@@ -1,6 +1,8 @@
 A weather app written in JavaScript.
 
-![pic](https://ibb.co/kgSFHbZ)
+## Screenshot
+
+![weatherapp](https://user-images.githubusercontent.com/68286192/132669025-0bacca89-12a6-47c0-8683-b7f2029b349d.jpg)
 
 ## Instructions
 
