@@ -1,5 +1,7 @@
 A weather app written in JavaScript.
 
+![pic](https://ibb.co/kgSFHbZ)
+
 ## Instructions
 
 1. Install latest nodejs
