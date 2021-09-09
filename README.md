@@ -11,3 +11,5 @@ A weather app written in JavaScript.
 ## Deploy on Netlify.com
 
 [Netlify](https://www.netlify.com/) is an intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web apps
+
+![Uploading Snímek obrazovky 2021-09-09 v 11.49.59.jpg…]()
